@@ -3,7 +3,7 @@
 namespace SimpleSAML\Module\ratelimit\Limiters;
 
 use SimpleSAML\Configuration;
-use SimpleSAML\Utils\Crypto;
+use SimpleSAML\Utils;
 
 /**
  * Prevent password stuffing attacks by blocking repeated attempts on an incorrect password.
